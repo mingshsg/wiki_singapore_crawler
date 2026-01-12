@@ -198,17 +198,9 @@ class ContentProcessor:
     def _extract_main_content(self, soup: BeautifulSoup) -> BeautifulSoup:
         """Extract the main content area from Wikipedia page."""
         # Try to find the main content div - check multiple selectors in order of preference
+        # Prioritize newer structure first as it contains more complete content
         
-        # First try the traditional mw-content-text
-        main_content = soup.find('div', {'id': 'mw-content-text'})
-        if main_content:
-            # Look for mw-parser-output within it
-            parser_output = main_content.find('div', class_='mw-parser-output')
-            if parser_output:
-                return parser_output
-            return main_content
-        
-        # Try the newer mw-content-container structure
+        # First try the newer mw-content-container structure (preferred)
         content_container = soup.find('div', class_='mw-content-container')
         if content_container:
             # Look for mw-content-text within the container
@@ -222,12 +214,21 @@ class ContentProcessor:
             # Fallback to the container itself
             return content_container
         
-        # Try direct mw-parser-output
+        # Try the traditional mw-content-text structure (alternative)
+        main_content = soup.find('div', {'id': 'mw-content-text'})
+        if main_content:
+            # Look for mw-parser-output within it
+            parser_output = main_content.find('div', class_='mw-parser-output')
+            if parser_output:
+                return parser_output
+            return main_content
+        
+        # Try direct mw-parser-output as alternative
         main_content = soup.find('div', class_='mw-parser-output')
         if main_content:
             return main_content
         
-        # Try bodyContent as fallback
+        # Try bodyContent as fallback alternative
         main_content = soup.find('div', {'id': 'bodyContent'})
         if main_content:
             return main_content

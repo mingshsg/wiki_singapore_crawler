@@ -1,4 +1,0 @@
-# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/utils/filename_utils.py
-# hypothesis_version: 6.148.2
-
-[127, 200, 10000, '.', '. ', '<>:"/\\|?*', 'AUX', 'COM1', 'COM2', 'COM3', 'COM4', 'COM5', 'COM6', 'COM7', 'COM8', 'COM9', 'CON', 'Category:', 'LPT1', 'LPT2', 'LPT3', 'LPT4', 'LPT5', 'LPT6', 'LPT7', 'LPT8', 'LPT9', 'NFKC', 'NUL', 'PRN', '_', 'article', 'category', 'file']

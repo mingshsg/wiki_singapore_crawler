@@ -1,4 +1,0 @@
-# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/processors/category_handler.py
-# hypothesis_version: 6.148.2
-
-['#', '/', '/Category:', '/File:', '/Help:', '/Media:', '/Portal:', '/Special:', '/Talk:', '/Template:', '/User:', '/Wikipedia:', '/wiki/', 'Category:', 'CategoryTreeTag', 'Unknown Category', '_', 'a', 'articles_count', 'articles_found', 'categories', 'categories_processed', 'category', 'depth', 'div', 'firstHeading', 'h1', 'h2', 'href', 'html.parser', 'http', 'https', 'id', 'menu', 'mw-category-media', 'mw-content-text', 'mw-pages', 'mw-subcategories', 'nav', 'ol', 'pages in category', 'subcategories', 'subcategories_count', 'subcategories_found', 'title', 'toc', 'ul', 'wikipedia.org', 'wikipedia.org/wiki/']

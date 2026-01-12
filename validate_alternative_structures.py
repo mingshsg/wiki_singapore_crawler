@@ -192,14 +192,24 @@ def test_extraction_priority():
     try:
         processed = processor.process_content(html_with_both)
         
-        if "Newer Structure Content" in processed and "Older Structure Content" not in processed:
+        # Check which content was extracted
+        has_newer = "Newer Structure Content" in processed
+        has_older = "Older Structure Content" in processed
+        
+        if has_newer and not has_older:
             print("✅ Newer structure correctly preferred")
             return True
-        elif "Older Structure Content" in processed:
+        elif has_older and not has_newer:
             print("❌ Older structure was used instead of newer")
+            print(f"   Processed content: {processed[:200]}...")
+            return False
+        elif has_newer and has_older:
+            print("⚠️  Both structures found in output (unexpected)")
+            print(f"   Processed content: {processed[:200]}...")
             return False
         else:
             print("❌ Neither structure was properly extracted")
+            print(f"   Processed content: {processed[:200]}...")
             return False
             
     except Exception as e:

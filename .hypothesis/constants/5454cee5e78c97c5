@@ -1,4 +1,0 @@
-# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/processors/article_handler.py
-# hypothesis_version: 6.148.2
-
-[100, ' - Wikipedia', '/wiki/', 'Unknown Article', '_', 'a', 'article', 'articles_filtered', 'articles_processed', 'articles_saved', 'body', 'bodyContent', 'content', 'content_length', 'div', 'filtered', 'firstHeading', 'get_stats', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'html.parser', 'id', 'language', 'languages_detected', 'main', 'mw-content-text', 'mw-parser-output', 'p', 'processing_errors', 'reason', 'title']

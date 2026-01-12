@@ -215,13 +215,16 @@ class ContentProcessor:
             return content_container
         
         # Try the traditional mw-content-text structure (alternative)
-        main_content = soup.find('div', {'id': 'mw-content-text'})
-        if main_content:
-            # Look for mw-parser-output within it
-            parser_output = main_content.find('div', class_='mw-parser-output')
-            if parser_output:
-                return parser_output
-            return main_content
+        # Only look for mw-content-text that is NOT inside mw-content-container
+        for mw_content_text in soup.find_all('div', {'id': 'mw-content-text'}):
+            # Check if this mw-content-text is inside a mw-content-container
+            parent_container = mw_content_text.find_parent('div', class_='mw-content-container')
+            if not parent_container:  # Only use if not inside container
+                # Look for mw-parser-output within it
+                parser_output = mw_content_text.find('div', class_='mw-parser-output')
+                if parser_output:
+                    return parser_output
+                return mw_content_text
         
         # Try direct mw-parser-output as alternative
         main_content = soup.find('div', class_='mw-parser-output')

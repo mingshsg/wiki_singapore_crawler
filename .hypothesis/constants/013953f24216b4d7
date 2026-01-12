@@ -1,4 +1,0 @@
-# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/core/file_storage.py
-# hypothesis_version: 6.148.2
-
-['*.tmp', '.json', '.tmp', '1.0', '1.0.0', '_metadata', 'article', 'article_files', 'category', 'category_', 'category_files', 'crawler_version', 'file_format_version', 'output_directory', 'saved_at', 'temp_path', 'total_files', 'total_size_bytes', 'utf-8', 'w']

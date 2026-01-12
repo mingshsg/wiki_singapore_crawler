@@ -1,0 +1,19 @@
+2026-01-09 19:31:28,223 - __main__ - INFO - Starting Wikipedia Singapore Crawler
+2026-01-09 19:31:28,224 - __main__ - INFO - Start URL: https://en.wikipedia.org/wiki/Category:Singapore
+2026-01-09 19:31:28,224 - __main__ - INFO - Output directory: test_wiki
+2026-01-09 19:31:28,224 - wikipedia_crawler.core.crawler - INFO - WikipediaCrawler.start_crawling() - Placeholder implementation
+2026-01-09 19:31:28,224 - wikipedia_crawler.core.crawler - INFO - Would start crawling from: https://en.wikipedia.org/wiki/Category:Singapore
+2026-01-09 19:31:28,224 - wikipedia_crawler.core.crawler - INFO - Would save results to: test_wiki
+2026-01-09 19:31:28,224 - wikipedia_crawler.core.crawler - INFO - Created output directory: test_wiki
+2026-01-09 19:31:28,224 - wikipedia_crawler.core.crawler - INFO - Crawling completed (placeholder)
+2026-01-09 19:31:28,224 - __main__ - INFO - Crawling completed successfully
+2026-01-10 08:44:25,485 - __main__ - INFO - Starting Wikipedia Singapore Crawler
+2026-01-10 08:44:25,485 - __main__ - INFO - Start URL: https://en.wikipedia.org/wiki/Category:Singapore
+2026-01-10 08:44:25,485 - __main__ - INFO - Output directory: wiki
+2026-01-10 08:44:25,485 - __main__ - INFO - Maximum crawling depth: 3
+2026-01-10 08:44:25,485 - wikipedia_crawler.core.crawler - INFO - WikipediaCrawler.start_crawling() - Placeholder implementation
+2026-01-10 08:44:25,485 - wikipedia_crawler.core.crawler - INFO - Would start crawling from: https://en.wikipedia.org/wiki/Category:Singapore
+2026-01-10 08:44:25,485 - wikipedia_crawler.core.crawler - INFO - Would save results to: wiki
+2026-01-10 08:44:25,485 - wikipedia_crawler.core.crawler - INFO - Created output directory: wiki
+2026-01-10 08:44:25,485 - wikipedia_crawler.core.crawler - INFO - Crawling completed (placeholder)
+2026-01-10 08:44:25,485 - __main__ - INFO - Crawling completed successfully

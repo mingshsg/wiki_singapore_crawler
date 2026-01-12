@@ -1,0 +1,18 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:40:04.438996"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Stray_cats_in_Singapore",
+    "https://en.wikipedia.org/wiki/Al-Junaid_family"
+  ],
+  "processed_at": "2026-01-12T09:40:04.438433",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Hoaxes_in_Singapore"
+  ],
+  "title": "Cultural history of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Cultural_history_of_Singapore"
+}

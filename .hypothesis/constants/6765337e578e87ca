@@ -1,0 +1,4 @@
+# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/core/url_queue.py
+# hypothesis_version: 6.148.2
+
+[999, 'Queue cleared', 'articles_pending', 'categories_pending', 'completed_urls', 'discovered_at', 'pending_urls', 'priority', 'queue_items', 'queue_size', 'r', 'saved_at', 'stats', 'total_discovered', 'unknown', 'url', 'url_item', 'url_type', 'urls_added', 'urls_completed', 'utf-8', 'w']

@@ -1,0 +1,19 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:44:59.067390"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/List_of_Singaporean_records_in_athletics",
+    "https://en.wikipedia.org/wiki/List_of_Singaporean_records_in_swimming",
+    "https://en.wikipedia.org/wiki/List_of_Singaporean_records_in_Olympic_weightlifting",
+    "https://en.wikipedia.org/wiki/List_of_Singaporean_records_in_speed_skating",
+    "https://en.wikipedia.org/wiki/List_of_Singaporean_records_in_track_cycling"
+  ],
+  "processed_at": "2026-01-12T09:44:59.066882",
+  "subcategories": [],
+  "title": "Singaporean records",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Singaporean_records"
+}

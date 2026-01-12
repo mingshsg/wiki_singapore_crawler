@@ -1,0 +1,4 @@
+# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/core/page_processor.py
+# hypothesis_version: 6.148.2
+
+[0.0, 1.0, 200, 404, 429, 503, '/Category:', '1', 'Accept', 'Accept-Encoding', 'Accept-Language', 'Category:', 'CategoryTreeTag', 'Connection', 'HTTP session closed', 'User-Agent', 'article', 'articles_processed', 'categories_processed', 'category', 'div', 'en-US,en;q=0.5', 'failed_requests', 'firstHeading', 'gzip, deflate', 'h1', 'h2', 'html.parser', 'id', 'infobox', 'keep-alive', 'mw-category-media', 'mw-content-text', 'mw-pages', 'mw-parser-output', 'mw-subcategories', 'p', 'pages in category', 'requests_made', 'retries_attempted', 'subcategories', 'successful_requests', 'table', 'unknown']

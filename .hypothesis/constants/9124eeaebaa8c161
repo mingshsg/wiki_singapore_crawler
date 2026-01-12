@@ -1,0 +1,4 @@
+# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/utils/__init__.py
+# hypothesis_version: 6.148.2
+
+['get_logger', 'sanitize_filename', 'setup_logging']

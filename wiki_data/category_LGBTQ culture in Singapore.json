@@ -1,0 +1,29 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:41:56.792331"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Unmarked_Treasure",
+    "https://en.wikipedia.org/wiki/List_of_Singaporean_LGBTQ_documentaries",
+    "https://en.wikipedia.org/wiki/Let_Me_Tell_You_Something_About_That_Night",
+    "https://en.wikipedia.org/wiki/The_Lover%27s_Inventory",
+    "https://en.wikipedia.org/wiki/Trevvy",
+    "https://en.wikipedia.org/wiki/Sean_Foo",
+    "https://en.wikipedia.org/wiki/Dear_Straight_People",
+    "https://en.wikipedia.org/wiki/Getaway_(web_series)",
+    "https://en.wikipedia.org/wiki/LGBTQ_literature_in_Singapore",
+    "https://en.wikipedia.org/wiki/Peculiar_Chris",
+    "https://en.wikipedia.org/wiki/LGBTQ_culture_in_Singapore",
+    "https://en.wikipedia.org/wiki/LGBTQ_art_in_Singapore",
+    "https://en.wikipedia.org/wiki/Tilting_Our_Plates_to_Catch_the_Light"
+  ],
+  "processed_at": "2026-01-12T09:41:56.791691",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:LGBTQ_events_in_Singapore"
+  ],
+  "title": "LGBTQ culture in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:LGBTQ_culture_in_Singapore"
+}

@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:44:09.002664"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Commissioner_of_Police_(Singapore)",
+    "https://en.wikipedia.org/wiki/Judicial_officers_of_the_Republic_of_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_acts_of_the_Parliament_of_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_Singapore_police_officers_killed_in_the_line_of_duty"
+  ],
+  "processed_at": "2026-01-12T09:44:09.002183",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Singapore_crime-related_lists"
+  ],
+  "title": "Singapore law-related lists",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Singapore_law-related_lists"
+}

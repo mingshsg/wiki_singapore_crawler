@@ -1,0 +1,24 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:44:13.334569"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Speaker_of_the_Parliament_of_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_Singapore_opposition_party_MPs_elected",
+    "https://en.wikipedia.org/wiki/Elections_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_political_parties_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_by-elections_in_Singapore",
+    "https://en.wikipedia.org/wiki/Organisation_of_the_Government_of_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:44:13.334054",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Lists_of_Singaporean_politicians",
+    "https://en.wikipedia.org/wiki/Category:Lists_of_Singaporean_electoral_divisions",
+    "https://en.wikipedia.org/wiki/Category:Singapore_diplomacy-related_lists"
+  ],
+  "title": "Singapore politics-related lists",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Singapore_politics-related_lists"
+}

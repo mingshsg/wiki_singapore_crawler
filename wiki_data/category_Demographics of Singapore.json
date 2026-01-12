@@ -1,0 +1,27 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:45:09.138006"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Nepalese_in_Singapore",
+    "https://en.wikipedia.org/wiki/Immigration_to_Singapore",
+    "https://en.wikipedia.org/wiki/National_Night",
+    "https://en.wikipedia.org/wiki/Death_in_Singapore",
+    "https://en.wikipedia.org/wiki/Race_in_Singapore",
+    "https://en.wikipedia.org/wiki/Inter-racial_and_religious_confidence_circle",
+    "https://en.wikipedia.org/wiki/Demographics_of_Singapore",
+    "https://en.wikipedia.org/wiki/Population_White_Paper",
+    "https://en.wikipedia.org/wiki/Population_planning_in_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:45:09.137466",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Ethnic_groups_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Expatriates_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Immigration_to_Singapore"
+  ],
+  "title": "Demographics of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Demographics_of_Singapore"
+}

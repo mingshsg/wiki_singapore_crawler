@@ -1,0 +1,21 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:41:52.673956"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Singapore_Workplace_Safety_and_Health_Conference",
+    "https://en.wikipedia.org/wiki/Congress_of_Southeast_Asian_Librarians",
+    "https://en.wikipedia.org/wiki/Singapore_International_Water_Week",
+    "https://en.wikipedia.org/wiki/117th_IOC_Session",
+    "https://en.wikipedia.org/wiki/The_International_Academic_Forum"
+  ],
+  "processed_at": "2026-01-12T09:41:52.673359",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Diplomatic_conferences_in_Singapore"
+  ],
+  "title": "International conferences in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:International_conferences_in_Singapore"
+}

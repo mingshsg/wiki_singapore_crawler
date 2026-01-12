@@ -1,0 +1,22 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:41:36.618743"
+  },
+  "articles": [],
+  "processed_at": "2026-01-12T09:41:36.618319",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Economic_history_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Natural_history_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Container_categories",
+    "https://en.wikipedia.org/wiki/Category:Philately_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Military_history_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Political_history_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:History_of_education_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Social_history_of_Singapore"
+  ],
+  "title": "History of Singapore by topic",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:History_of_Singapore_by_topic"
+}

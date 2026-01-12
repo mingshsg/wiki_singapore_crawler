@@ -1,0 +1,21 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:40:55.050119"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Malaysia%E2%80%93Singapore_border",
+    "https://en.wikipedia.org/wiki/Indonesia%E2%80%93Singapore_border"
+  ],
+  "processed_at": "2026-01-12T09:40:55.049611",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Territorial_disputes_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Malaysia%E2%80%93Singapore_border",
+    "https://en.wikipedia.org/wiki/Category:Border_crossings_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Indonesia%E2%80%93Singapore_border"
+  ],
+  "title": "Borders of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Borders_of_Singapore"
+}

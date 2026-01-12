@@ -1,0 +1,25 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:40:46.549951"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Ministry_of_Trade_and_Industry_(Singapore)",
+    "https://en.wikipedia.org/wiki/2022_Malaysian_chicken_export_ban",
+    "https://en.wikipedia.org/wiki/China%E2%80%93Indochina_Peninsula_economic_corridor",
+    "https://en.wikipedia.org/wiki/International_Enterprise_Singapore",
+    "https://en.wikipedia.org/wiki/Digital_Economy_Partnership_Agreement",
+    "https://en.wikipedia.org/wiki/ASEAN%E2%80%93China_Free_Trade_Area",
+    "https://en.wikipedia.org/wiki/Suzhou_Industrial_Park"
+  ],
+  "processed_at": "2026-01-12T09:40:46.549445",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Ports_and_harbours_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Free_trade_agreements_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Multinational_companies_headquartered_in_Singapore"
+  ],
+  "title": "Foreign trade of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Foreign_trade_of_Singapore"
+}

@@ -1,0 +1,23 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:40:24.476347"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Singapore_Media_Academy",
+    "https://en.wikipedia.org/wiki/MindChamps"
+  ],
+  "processed_at": "2026-01-12T09:40:24.475901",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Museums_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Universities_and_colleges_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Schools_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Libraries_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Education_companies_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Archives_in_Singapore"
+  ],
+  "title": "Educational organisations based in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Educational_organisations_based_in_Singapore"
+}

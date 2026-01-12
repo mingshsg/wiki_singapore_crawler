@@ -1,0 +1,31 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:43:32.861370"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Main_Upgrading_Programme",
+    "https://en.wikipedia.org/wiki/Additional_CPF_Housing_Grant",
+    "https://en.wikipedia.org/wiki/Neighbourhood_Renewal_Programme",
+    "https://en.wikipedia.org/wiki/Lift_Upgrading_Programme",
+    "https://en.wikipedia.org/wiki/New_towns_of_Singapore",
+    "https://en.wikipedia.org/wiki/Walk-in_Selection",
+    "https://en.wikipedia.org/wiki/Build-to-Order_(Singapore)",
+    "https://en.wikipedia.org/wiki/Public_housing_in_Singapore",
+    "https://en.wikipedia.org/wiki/Cash-Over-Valuation",
+    "https://en.wikipedia.org/wiki/Housing_and_Development_Board",
+    "https://en.wikipedia.org/wiki/Home_Improvement_Programme",
+    "https://en.wikipedia.org/wiki/Design,_Build_and_Sell_Scheme",
+    "https://en.wikipedia.org/wiki/Selective_En_bloc_Redevelopment_Scheme"
+  ],
+  "processed_at": "2026-01-12T09:43:32.860908",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Singaporean_businesspeople_in_the_real_estate_industry",
+    "https://en.wikipedia.org/wiki/Category:Housing_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Condominiums_in_Singapore"
+  ],
+  "title": "Real estate in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Real_estate_in_Singapore"
+}

@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:46:09.356876"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Centrepoint_Kids"
+  ],
+  "processed_at": "2026-01-12T09:46:09.356269",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Youth_sport_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Childhood_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Youth_organisations_based_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_youth_culture"
+  ],
+  "title": "Youth in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Youth_in_Singapore"
+}

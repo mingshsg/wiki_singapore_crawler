@@ -1,0 +1,24 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:41:24.852931"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/List_of_disasters_in_Singapore_by_death_toll"
+  ],
+  "processed_at": "2026-01-12T09:41:24.852498",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Disasters_in_Singapore_by_century",
+    "https://en.wikipedia.org/wiki/Category:Disasters_in_Singapore_by_decade",
+    "https://en.wikipedia.org/wiki/Category:Health_disasters_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Man-made_disasters_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Emergency_management_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Fires_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Natural_disasters_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Disasters_in_Singapore_by_year"
+  ],
+  "title": "Disasters in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Disasters_in_Singapore"
+}

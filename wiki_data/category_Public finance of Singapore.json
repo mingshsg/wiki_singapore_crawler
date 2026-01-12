@@ -1,0 +1,19 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:43:27.105346"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Reserves_of_the_Government_of_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:43:27.104788",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Finance_ministers_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Taxation_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Government-owned_companies_of_Singapore"
+  ],
+  "title": "Public finance of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Public_finance_of_Singapore"
+}

@@ -1,0 +1,18 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:45:43.082649"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Certificate_of_Entitlement",
+    "https://en.wikipedia.org/wiki/Income_tax_in_Singapore",
+    "https://en.wikipedia.org/wiki/Inland_Revenue_Authority_of_Singapore",
+    "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(Singapore)"
+  ],
+  "processed_at": "2026-01-12T09:45:43.082195",
+  "subcategories": [],
+  "title": "Taxation in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Taxation_in_Singapore"
+}

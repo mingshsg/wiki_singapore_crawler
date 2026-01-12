@@ -1,0 +1,23 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:40:12.492359"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Malaya_and_British_Borneo_dollar",
+    "https://en.wikipedia.org/wiki/Singapore_Mint",
+    "https://en.wikipedia.org/wiki/Singapore_Swap_Offer_Rate",
+    "https://en.wikipedia.org/wiki/Singapore_dollar",
+    "https://en.wikipedia.org/wiki/Straits_dollar",
+    "https://en.wikipedia.org/wiki/Japanese_government%E2%80%93issued_dollar_in_Malaya_and_Borneo",
+    "https://en.wikipedia.org/wiki/Malayan_dollar"
+  ],
+  "processed_at": "2026-01-12T09:40:12.491907",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Banknotes_of_Singapore"
+  ],
+  "title": "Currencies of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Currencies_of_Singapore"
+}

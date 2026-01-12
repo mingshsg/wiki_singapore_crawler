@@ -1,0 +1,32 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:43:10.782487"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Article_16_of_the_Constitution_of_Singapore",
+    "https://en.wikipedia.org/wiki/Pink_Dot_SG",
+    "https://en.wikipedia.org/wiki/Yellow_Ribbon_Project",
+    "https://en.wikipedia.org/wiki/Singaporeans_for_Democracy",
+    "https://en.wikipedia.org/wiki/Voting_rights_in_Singapore",
+    "https://en.wikipedia.org/wiki/Human_rights_in_Singapore",
+    "https://en.wikipedia.org/wiki/The_Purple_Parade",
+    "https://en.wikipedia.org/wiki/Article_10_of_the_Constitution_of_Singapore",
+    "https://en.wikipedia.org/wiki/Article_9_of_the_Constitution_of_Singapore",
+    "https://en.wikipedia.org/wiki/Article_11_of_the_Constitution_of_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:43:10.782035",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Women%27s_rights_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Human_rights_abuses_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_human_rights_activists",
+    "https://en.wikipedia.org/wiki/Category:Prostitution_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_civil_rights_case_law",
+    "https://en.wikipedia.org/wiki/Category:Freedom_of_assembly_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Freedom_of_expression_in_Singapore"
+  ],
+  "title": "Human rights in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Human_rights_in_Singapore"
+}

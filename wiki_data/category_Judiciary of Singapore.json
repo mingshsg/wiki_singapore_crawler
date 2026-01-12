@@ -1,0 +1,26 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:41:55.284691"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Singapore_Legal_Service",
+    "https://en.wikipedia.org/wiki/Judicial_officers_of_the_Republic_of_Singapore",
+    "https://en.wikipedia.org/wiki/Judicial_system_of_Singapore",
+    "https://en.wikipedia.org/wiki/Judicial_commissioner",
+    "https://en.wikipedia.org/wiki/Oakwell_Engineering_Ltd_v_Enernorth_Industries_Inc",
+    "https://en.wikipedia.org/wiki/Judge_of_Singapore",
+    "https://en.wikipedia.org/wiki/Specialist_judge",
+    "https://en.wikipedia.org/wiki/Judicial_independence_in_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:41:55.284266",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Singaporean_judges",
+    "https://en.wikipedia.org/wiki/Category:Courts_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_case_law"
+  ],
+  "title": "Judiciary of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Judiciary_of_Singapore"
+}

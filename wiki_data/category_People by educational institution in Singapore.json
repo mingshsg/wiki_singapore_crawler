@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:42:50.983701"
+  },
+  "articles": [],
+  "processed_at": "2026-01-12T09:42:50.983183",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Container_categories",
+    "https://en.wikipedia.org/wiki/Category:People_associated_with_Victoria_schools,_Singapore",
+    "https://en.wikipedia.org/wiki/Category:People_associated_with_the_Anglo-Chinese_School",
+    "https://en.wikipedia.org/wiki/Category:People_by_university_or_college_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Alumni_by_secondary_school_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Lists_of_Singaporean_people_by_school_affiliation"
+  ],
+  "title": "People by educational institution in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:People_by_educational_institution_in_Singapore"
+}

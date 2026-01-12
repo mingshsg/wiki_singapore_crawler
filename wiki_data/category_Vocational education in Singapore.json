@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:45:53.965518"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Institute_of_Technical_Education"
+  ],
+  "processed_at": "2026-01-12T09:45:53.965058",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Polytechnics_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Military_education_and_training_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Sport_schools_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Medical_education_in_Singapore"
+  ],
+  "title": "Vocational education in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Vocational_education_in_Singapore"
+}

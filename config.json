@@ -1,0 +1,12 @@
+{
+  "start_url": "https://en.wikipedia.org/wiki/Category:Singapore",
+  "output_dir": "./wiki",
+  "max_depth": 5,
+  "request_delay": 1.0,
+  "request_timeout": 30,
+  "max_retries": 3,
+  "supported_languages": ["en", "zh-cn", "zh"],
+  "max_filename_length": 200,
+  "log_level": "INFO",
+  "log_file": "crawler.log"
+}

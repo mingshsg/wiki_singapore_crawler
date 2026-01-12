@@ -1,0 +1,31 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:46:07.402952"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Women_in_Singapore",
+    "https://en.wikipedia.org/wiki/Singapore_Ladies_Masters",
+    "https://en.wikipedia.org/wiki/Sex_trafficking_in_Singapore",
+    "https://en.wikipedia.org/wiki/Ladies%27_Lawn_Tennis_Club",
+    "https://en.wikipedia.org/wiki/Style:_(magazine)",
+    "https://en.wikipedia.org/wiki/Ministry_of_Social_and_Family_Development",
+    "https://en.wikipedia.org/wiki/Singapore_Armed_Forces_Merit_Scholarship_(Women)"
+  ],
+  "processed_at": "2026-01-12T09:46:07.402536",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Women%27s_organisations_based_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Women%27s_rights_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:History_of_women_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Girls%27_schools_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_women",
+    "https://en.wikipedia.org/wiki/Category:Beauty_pageants_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Women%27s_sport_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Maternity_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Feminism_in_Singapore"
+  ],
+  "title": "Women in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Women_in_Singapore"
+}

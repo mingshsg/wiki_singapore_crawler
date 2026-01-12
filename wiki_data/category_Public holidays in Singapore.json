@@ -1,0 +1,26 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:43:29.081525"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/New_Year%27s_Day",
+    "https://en.wikipedia.org/wiki/Vesak",
+    "https://en.wikipedia.org/wiki/National_Day_(Singapore)",
+    "https://en.wikipedia.org/wiki/Diwali",
+    "https://en.wikipedia.org/wiki/Good_Friday",
+    "https://en.wikipedia.org/wiki/Labour_Day_(Singapore)",
+    "https://en.wikipedia.org/wiki/Public_holidays_in_Singapore",
+    "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+    "https://en.wikipedia.org/wiki/Chinese_New_Year",
+    "https://en.wikipedia.org/wiki/Eid_al-Adha"
+  ],
+  "processed_at": "2026-01-12T09:43:29.081101",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Festivals_in_Singapore"
+  ],
+  "title": "Public holidays in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Public_holidays_in_Singapore"
+}

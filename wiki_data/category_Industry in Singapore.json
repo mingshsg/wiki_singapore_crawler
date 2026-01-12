@@ -1,0 +1,25 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:41:49.657918"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Samsui_women"
+  ],
+  "processed_at": "2026-01-12T09:41:49.643936",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Gambling_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Companies_of_Singapore_by_industry",
+    "https://en.wikipedia.org/wiki/Category:Ships_built_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_businesspeople_by_industry",
+    "https://en.wikipedia.org/wiki/Category:Service_industries_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Industrial_buildings_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Agriculture_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Industrial_parks_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Chemical_industry_in_Singapore"
+  ],
+  "title": "Industry in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Industry_in_Singapore"
+}

@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:40:44.557271"
+  },
+  "articles": [],
+  "processed_at": "2026-01-12T09:40:44.556737",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Food_and_drink_companies_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Gastronomy_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Street_food_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Food_and_drink_festivals_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Vegetarianism_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_drinks"
+  ],
+  "title": "Food and drink in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Food_and_drink_in_Singapore"
+}

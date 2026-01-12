@@ -1,0 +1,4 @@
+# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/models/__init__.py
+# hypothesis_version: 6.148.2
+
+['ArticleData', 'CategoryData', 'CrawlStatus', 'ProcessResult', 'ProcessStatus', 'ProgressReport', 'URLItem', 'URLType']

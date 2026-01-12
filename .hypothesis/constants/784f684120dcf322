@@ -1,0 +1,4 @@
+# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/models/data_models.py
+# hypothesis_version: 6.148.2
+
+[0.0, 100, ' | ', 'ArticleData', 'CategoryData', 'Not started', 'article', 'articles', 'articles_processed', 'categories_processed', 'category', 'completed', 'content', 'error', 'error_count', 'error_summary', 'filtered', 'filtered_count', 'https://', 'is_running', 'language', 'language_stats', 'last_activity', 'pending', 'pending_urls', 'processed_at', 'processing', 'recent_urls', 'start_time', 'status', 'subcategories', 'title', 'total_processed', 'type', 'unknown', 'url', 'wikipedia.org']

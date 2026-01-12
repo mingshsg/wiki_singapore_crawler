@@ -1,0 +1,4 @@
+# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/core/wikipedia_crawler.py
+# hypothesis_version: 6.148.2
+
+[0.5, 1.0, '/Category:', '/wiki/', 'Crawl loop finished', 'Crawler stopped', 'Starting crawl loop', 'Unknown error', 'Unknown page type', 'WikipediaCrawler', 'article_handler', 'category_handler', 'close', 'crawler', 'deduplication', 'errors_this_session', 'filtered', 'http', 'https', 'language', 'language_filter', 'page_processor', 'progress', 'progress_state.json', 'queue', 'queue_state.json', 'running', 'session_end', 'session_start', 'session_stats', 'shutdown_requested', 'state', 'unknown', 'wikipedia.org', 'wikipedia_data']

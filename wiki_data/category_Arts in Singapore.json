@@ -1,0 +1,41 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:40:00.778841"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Spotlight_Singapore",
+    "https://en.wikipedia.org/wiki/Singapore_International_Festival_of_Arts",
+    "https://en.wikipedia.org/wiki/Institute_of_Contemporary_Arts_Singapore",
+    "https://en.wikipedia.org/wiki/Gillman_Barracks",
+    "https://en.wikipedia.org/wiki/Sana_Gallery",
+    "https://en.wikipedia.org/wiki/Singapore_Young_Artist_Award",
+    "https://en.wikipedia.org/wiki/National_Arts_Council,_Singapore",
+    "https://en.wikipedia.org/wiki/Objectifs",
+    "https://en.wikipedia.org/wiki/Singapore_Art_Show",
+    "https://en.wikipedia.org/wiki/Cultural_Medallion",
+    "https://en.wikipedia.org/wiki/Month_of_Photography_Asia",
+    "https://en.wikipedia.org/wiki/Singapore_Biennale",
+    "https://en.wikipedia.org/wiki/The_Teng_Company",
+    "https://en.wikipedia.org/wiki/List_of_public_art_in_Singapore",
+    "https://en.wikipedia.org/wiki/Art_Apart_Fair",
+    "https://en.wikipedia.org/wiki/Art_Plural_Gallery"
+  ],
+  "processed_at": "2026-01-12T09:40:00.778256",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Singaporean_literature",
+    "https://en.wikipedia.org/wiki/Category:Cinema_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Performing_arts_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Architecture_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Arts_organisations_based_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_art",
+    "https://en.wikipedia.org/wiki/Category:Works_by_Singaporean_people",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_comics",
+    "https://en.wikipedia.org/wiki/Category:Arts_festivals_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_design"
+  ],
+  "title": "Arts in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Arts_in_Singapore"
+}

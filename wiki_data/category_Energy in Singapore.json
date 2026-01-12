@@ -1,0 +1,24 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:40:26.980866"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Energy_in_Singapore",
+    "https://en.wikipedia.org/wiki/Energy_Market_Authority",
+    "https://en.wikipedia.org/wiki/Clean_Energy_Expo_Asia",
+    "https://en.wikipedia.org/wiki/Energy_Studies_Institute",
+    "https://en.wikipedia.org/wiki/Mean_of_Platts_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:40:26.980458",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Fossil_fuels_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Energy_companies_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Electric_power_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Energy_infrastructure_in_Singapore"
+  ],
+  "title": "Energy in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Energy_in_Singapore"
+}

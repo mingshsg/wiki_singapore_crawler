@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:41:22.665937"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/MediaCorp_Teletext",
+    "https://en.wikipedia.org/wiki/XFM_96.3"
+  ],
+  "processed_at": "2026-01-12T09:41:22.665473",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Defunct_magazines_published_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Defunct_newspapers_published_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Defunct_television_channels_in_Singapore"
+  ],
+  "title": "Defunct mass media in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Defunct_mass_media_in_Singapore"
+}

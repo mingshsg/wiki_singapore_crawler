@@ -1,0 +1,26 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:44:38.965857"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/List_of_Singaporean_flags",
+    "https://en.wikipedia.org/wiki/List_of_Singapore_International_Film_Festival_awards",
+    "https://en.wikipedia.org/wiki/List_of_Darjah_Utama_Temasek_recipients",
+    "https://en.wikipedia.org/wiki/List_of_Darjah_Utama_Nila_Utama_recipients",
+    "https://en.wikipedia.org/wiki/Singlish_vocabulary",
+    "https://en.wikipedia.org/wiki/List_of_prizes,_medals,_and_awards_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_Vogue_Singapore_cover_models",
+    "https://en.wikipedia.org/wiki/List_of_common_Chinese_surnames",
+    "https://en.wikipedia.org/wiki/List_of_Darjah_Utama_Bakti_Cemerlang_recipients"
+  ],
+  "processed_at": "2026-01-12T09:44:38.965002",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Singapore_religion-related_lists",
+    "https://en.wikipedia.org/wiki/Category:Lists_of_Singaporean_films"
+  ],
+  "title": "Singaporean culture-related lists",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Singaporean_culture-related_lists"
+}

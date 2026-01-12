@@ -1,0 +1,49 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:42:06.294305"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Tamil_language",
+    "https://en.wikipedia.org/wiki/Southern_Min",
+    "https://en.wikipedia.org/wiki/Singaporean_Hokkien",
+    "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://en.wikipedia.org/wiki/Written_Hokkien",
+    "https://en.wikipedia.org/wiki/Madurese_language",
+    "https://en.wikipedia.org/wiki/Language_planning_and_policy_in_Singapore",
+    "https://en.wikipedia.org/wiki/Singapore_Sign_Language",
+    "https://en.wikipedia.org/wiki/Orang_Seletar_language",
+    "https://en.wikipedia.org/wiki/Singaporean_Mandarin",
+    "https://en.wikipedia.org/wiki/Javanese_language",
+    "https://en.wikipedia.org/wiki/Minangkabau_language",
+    "https://en.wikipedia.org/wiki/Malay_language",
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://en.wikipedia.org/wiki/Languages_of_Singapore",
+    "https://en.wikipedia.org/wiki/Language_education_in_Singapore",
+    "https://en.wikipedia.org/wiki/Teochew_Min",
+    "https://en.wikipedia.org/wiki/Chinese_language",
+    "https://en.wikipedia.org/wiki/Cantonese",
+    "https://en.wikipedia.org/wiki/Kristang_language",
+    "https://en.wikipedia.org/wiki/Malay_trade_and_creole_languages",
+    "https://en.wikipedia.org/wiki/Hokkien_influence_on_Singaporean_Mandarin",
+    "https://en.wikipedia.org/wiki/Singlish",
+    "https://en.wikipedia.org/wiki/Pu%E2%80%93Xian_Min"
+  ],
+  "processed_at": "2026-01-12T09:42:06.293874",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Malay_language",
+    "https://en.wikipedia.org/wiki/Category:Javanese_language",
+    "https://en.wikipedia.org/wiki/Category:Minangkabau_language",
+    "https://en.wikipedia.org/wiki/Category:Asia",
+    "https://en.wikipedia.org/wiki/Category:English_language_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Language_policy_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Sundanese_language",
+    "https://en.wikipedia.org/wiki/Category:Chinese_languages_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Language_education_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Indian_languages_in_Singapore"
+  ],
+  "title": "Languages of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Languages_of_Singapore"
+}

@@ -1,0 +1,4 @@
+# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/utils/logging_config.py
+# hypothesis_version: 6.148.2
+
+['%Y-%m-%d %H:%M:%S', 'INFO', 'utf-8']

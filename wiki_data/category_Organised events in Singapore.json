@@ -1,0 +1,45 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:42:47.063217"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/ONE:_Full_Circle",
+    "https://en.wikipedia.org/wiki/ONE:_Bad_Blood",
+    "https://en.wikipedia.org/wiki/ONE:_Lights_Out",
+    "https://en.wikipedia.org/wiki/Public_holidays_in_Singapore",
+    "https://en.wikipedia.org/wiki/Art_Apart_Fair",
+    "https://en.wikipedia.org/wiki/ONE:_Winter_Warriors",
+    "https://en.wikipedia.org/wiki/ONE:_Winter_Warriors_II",
+    "https://en.wikipedia.org/wiki/ONE_156",
+    "https://en.wikipedia.org/wiki/ONE_157",
+    "https://en.wikipedia.org/wiki/GITEX_Asia",
+    "https://en.wikipedia.org/wiki/ONE_159",
+    "https://en.wikipedia.org/wiki/ONE_on_Prime_Video_4",
+    "https://en.wikipedia.org/wiki/ONE:_Only_the_Brave",
+    "https://en.wikipedia.org/wiki/ONE_161",
+    "https://en.wikipedia.org/wiki/ONE:_X",
+    "https://en.wikipedia.org/wiki/ONE:_Heavy_Hitters",
+    "https://en.wikipedia.org/wiki/Singapore_Grand_Prix",
+    "https://en.wikipedia.org/wiki/ONE_on_Prime_Video_1",
+    "https://en.wikipedia.org/wiki/ONE_Fight_Night_8",
+    "https://en.wikipedia.org/wiki/ONE_158",
+    "https://en.wikipedia.org/wiki/ONE_163",
+    "https://en.wikipedia.org/wiki/Singapore_Airshow",
+    "https://en.wikipedia.org/wiki/ONE_on_Prime_Video_2",
+    "https://en.wikipedia.org/wiki/ONE_160"
+  ],
+  "processed_at": "2026-01-12T09:42:47.062746",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Annual_events_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Lists_of_organised_events_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:International_conferences_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:LGBTQ_events_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Entertainment_events_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Event_venues_in_Singapore"
+  ],
+  "title": "Organised events in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Organised_events_in_Singapore"
+}

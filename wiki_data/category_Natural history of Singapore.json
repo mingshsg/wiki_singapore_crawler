@@ -1,0 +1,24 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:42:31.262563"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Sunda_plate",
+    "https://en.wikipedia.org/wiki/Tree_conservation_areas_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_Heritage_Roads_in_Singapore",
+    "https://en.wikipedia.org/wiki/Heritage_trees_in_Singapore",
+    "https://en.wikipedia.org/wiki/Mangroves_of_the_Straits_of_Malacca",
+    "https://en.wikipedia.org/wiki/Nature_Society_(Singapore)"
+  ],
+  "processed_at": "2026-01-12T09:42:31.262063",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Geology_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Nature_reserves_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Biota_of_Singapore"
+  ],
+  "title": "Natural history of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Natural_history_of_Singapore"
+}

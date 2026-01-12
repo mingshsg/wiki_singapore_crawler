@@ -1,0 +1,18 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:43:50.950430"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Public_holidays_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_festivals_in_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:43:50.949940",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Lists_of_concerts_and_performances_of_Singaporean_artists"
+  ],
+  "title": "Lists of organised events in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Lists_of_organised_events_in_Singapore"
+}

@@ -1,0 +1,35 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:42:09.251077"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Law_of_Singapore",
+    "https://en.wikipedia.org/wiki/Sunny_Metal_%26_Engineering_Pte_Ltd_v_Ng_Khim_Ming_Eric",
+    "https://en.wikipedia.org/wiki/Sources_of_Singapore_law",
+    "https://en.wikipedia.org/wiki/Capital_punishment_in_Singapore",
+    "https://en.wikipedia.org/wiki/Singapore_Arrival_Card",
+    "https://en.wikipedia.org/wiki/Corruption_in_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:42:09.250627",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Legal_organisations_based_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_people_by_legal_status",
+    "https://en.wikipedia.org/wiki/Category:Trials_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_case_law",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_jurists",
+    "https://en.wikipedia.org/wiki/Category:Singapore_law-related_lists",
+    "https://en.wikipedia.org/wiki/Category:LGBTQ_law_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Regulation_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Repealed_Singaporean_legislation",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_law_by_issue",
+    "https://en.wikipedia.org/wiki/Category:Language_policy_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Parliament_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Treaties_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_legislation"
+  ],
+  "title": "Law of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Law_of_Singapore"
+}

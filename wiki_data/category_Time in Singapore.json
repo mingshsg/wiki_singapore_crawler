@@ -1,0 +1,20 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:45:47.552576"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/UTC%2B08:00",
+    "https://en.wikipedia.org/wiki/UTC%2B07:30",
+    "https://en.wikipedia.org/wiki/Singapore_Time",
+    "https://en.wikipedia.org/wiki/UTC%2B07:20"
+  ],
+  "processed_at": "2026-01-12T09:45:47.552073",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Clock_towers_in_Singapore"
+  ],
+  "title": "Time in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Time_in_Singapore"
+}

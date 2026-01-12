@@ -1,0 +1,22 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:41:17.176686"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Singapore_College_of_Islamic_Studies",
+    "https://en.wikipedia.org/wiki/Civil_Service_College_Singapore",
+    "https://en.wikipedia.org/wiki/MAD_School",
+    "https://en.wikipedia.org/wiki/Jewellery_Design_and_Management_International_School",
+    "https://en.wikipedia.org/wiki/Home_Team_Academy",
+    "https://en.wikipedia.org/wiki/Intercultural_Theatre_Institute"
+  ],
+  "processed_at": "2026-01-12T09:41:17.176192",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Universities_and_colleges_in_Singapore"
+  ],
+  "title": "Higher education in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Higher_education_in_Singapore"
+}

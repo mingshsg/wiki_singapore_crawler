@@ -1,0 +1,17 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:45:35.083412"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Hock_Lee_bus_riots",
+    "https://en.wikipedia.org/wiki/Chinese_middle_school_student_riots",
+    "https://en.wikipedia.org/wiki/1954_National_Service_riots"
+  ],
+  "processed_at": "2026-01-12T09:45:35.082827",
+  "subcategories": [],
+  "title": "Student protests in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Student_protests_in_Singapore"
+}

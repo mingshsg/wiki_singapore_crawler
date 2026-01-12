@@ -1,0 +1,4 @@
+# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/core/progress_tracker.py
+# hypothesis_version: 6.148.2
+
+[100, 3600, '.tmp', '1.0', '404', 'Reset progress state', 'access_denied', 'articles_processed', 'categories_processed', 'connection', 'content', 'error_count', 'error_summary', 'error_types', 'filtered_count', 'forbidden', 'is_running', 'language_stats', 'language_types', 'last_activity', 'network_error', 'not found', 'other_error', 'page_not_found', 'pending_urls', 'permission', 'processing', 'progress_state.json', 'r', 'recent_urls', 'recent_urls_count', 'save', 'saved_at', 'start_time', 'state_loads', 'state_saves', 'stats', 'status', 'storage', 'storage_error', 'timeout', 'total_processed', 'total_updates', 'tracked_urls', 'url_status', 'url_timestamps', 'url_types', 'utf-8', 'version', 'w']

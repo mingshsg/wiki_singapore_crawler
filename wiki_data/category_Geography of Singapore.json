@@ -1,0 +1,44 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:40:52.581148"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Northland,_Singapore",
+    "https://en.wikipedia.org/wiki/Geography_of_Singapore",
+    "https://en.wikipedia.org/wiki/Virtual_Singapore",
+    "https://en.wikipedia.org/wiki/Alexandra,_Singapore",
+    "https://en.wikipedia.org/wiki/Sumatra_squall",
+    "https://en.wikipedia.org/wiki/List_of_extreme_points_of_Singapore",
+    "https://en.wikipedia.org/wiki/Lower_Seletar,_Singapore",
+    "https://en.wikipedia.org/wiki/Land_reclamation_in_Singapore",
+    "https://en.wikipedia.org/wiki/Serangoon_Harbour",
+    "https://en.wikipedia.org/wiki/Yishun_South",
+    "https://en.wikipedia.org/wiki/Foreign_territories_of_Singapore",
+    "https://en.wikipedia.org/wiki/Robertson_Quay",
+    "https://en.wikipedia.org/wiki/Kallang_Basin",
+    "https://en.wikipedia.org/wiki/Pandan_Strait",
+    "https://en.wikipedia.org/wiki/Foreign_territories_in_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:40:52.580645",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Urban_planning_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singapore_geography-related_lists",
+    "https://en.wikipedia.org/wiki/Category:Sentosa",
+    "https://en.wikipedia.org/wiki/Category:Time_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Subdivisions_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Military_locations_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singapore_geography_stubs",
+    "https://en.wikipedia.org/wiki/Category:Places_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Natural_disasters_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Landforms_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Ports_and_harbours_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Borders_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Important_Bird_Areas_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Landmarks_in_Singapore"
+  ],
+  "title": "Geography of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Geography_of_Singapore"
+}

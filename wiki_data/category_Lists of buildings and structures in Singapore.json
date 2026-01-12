@@ -1,0 +1,39 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:42:13.159315"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/List_of_shopping_malls_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_airports_in_Singapore",
+    "https://en.wikipedia.org/wiki/Landmark_sites_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_bridges_in_Singapore",
+    "https://en.wikipedia.org/wiki/Venues_of_the_2010_Summer_Youth_Olympics",
+    "https://en.wikipedia.org/wiki/List_of_hotels_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_museums_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_cricket_grounds_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_stadiums_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_commercial_sites_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_lighthouses_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_libraries_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_underpasses_and_tunnels_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_former_bus_stations_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_power_stations_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_bus_stations_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_hospitals_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_arts_and_entertainment_venues_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_dams_and_reservoirs_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_cinemas_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_buildings_and_structures_in_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:42:13.158839",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Lists_of_religious_buildings_and_structures_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Lists_of_schools_in_Singapore"
+  ],
+  "title": "Lists of buildings and structures in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Lists_of_buildings_and_structures_in_Singapore"
+}

@@ -1,0 +1,25 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:41:11.040423"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Shooting_of_Mohamed_Taufik_Zahar",
+    "https://en.wikipedia.org/wiki/Yong_Vui_Kong_v_Public_Prosecutor",
+    "https://en.wikipedia.org/wiki/Opium_in_Singapore",
+    "https://en.wikipedia.org/wiki/Smoking_in_Singapore",
+    "https://en.wikipedia.org/wiki/Get_Your_Sexy_Back",
+    "https://en.wikipedia.org/wiki/Therapeutic_Targets_Database"
+  ],
+  "processed_at": "2026-01-12T09:41:11.039965",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Alcohol_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_COVID-19_vaccines",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_drug_traffickers",
+    "https://en.wikipedia.org/wiki/Category:Drug_policy_of_Singapore"
+  ],
+  "title": "Drugs in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Drugs_in_Singapore"
+}

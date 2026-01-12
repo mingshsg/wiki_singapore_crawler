@@ -1,0 +1,4 @@
+# file: /Users/ming.shen/Downloads/wiki_singapore_crawler/wikipedia_crawler/core/deduplication.py
+# hypothesis_version: 6.148.2
+
+[1024, '/', 'average_url_length', 'duplicates_prevented', 'estimated_memory_mb', 'last_updated', 'normalize_urls', 'processed_urls', 'r', 'remove_fragments', 'saved_at', 'settings', 'sort_query_params', 'stats', 'total_processed_urls', 'unknown', 'url_count', 'urls_processed', 'utf-8', 'w']

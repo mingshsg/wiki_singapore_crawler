@@ -1,0 +1,30 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:41:31.063587"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Tiong_Bahru_Air_Raid_Shelter",
+    "https://en.wikipedia.org/wiki/Long_Ya_Men",
+    "https://en.wikipedia.org/wiki/House_of_Tan_Teng_Niah",
+    "https://en.wikipedia.org/wiki/Masjid_Khalid",
+    "https://en.wikipedia.org/wiki/Raffles%27s_Landing_Site",
+    "https://en.wikipedia.org/wiki/Masjid_Jamek_Queenstown",
+    "https://en.wikipedia.org/wiki/Jalan_Kubor_Cemetery",
+    "https://en.wikipedia.org/wiki/Masjid_Wak_Tanjong",
+    "https://en.wikipedia.org/wiki/Founders%27_Memorial",
+    "https://en.wikipedia.org/wiki/My_Queenstown_Heritage_Trail",
+    "https://en.wikipedia.org/wiki/Japanese_Cemetery_Park",
+    "https://en.wikipedia.org/wiki/Masjid_Darul_Aman"
+  ],
+  "processed_at": "2026-01-12T09:41:31.062976",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Forts_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:World_Heritage_Sites_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Heritage_registers_in_Singapore"
+  ],
+  "title": "Historic sites in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Historic_sites_in_Singapore"
+}

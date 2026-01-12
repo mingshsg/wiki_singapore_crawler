@@ -1,0 +1,35 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:40:56.613613"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Eat_Frozen_Pork",
+    "https://en.wikipedia.org/wiki/3rd_Legislative_Assembly_of_Singapore",
+    "https://en.wikipedia.org/wiki/Enterprise_Singapore",
+    "https://en.wikipedia.org/wiki/Leader_of_the_House_(Singapore)",
+    "https://en.wikipedia.org/wiki/Municipal_Services_Office_(Singapore)",
+    "https://en.wikipedia.org/wiki/Government_of_Singapore",
+    "https://en.wikipedia.org/wiki/Corruption_in_Singapore",
+    "https://en.wikipedia.org/wiki/Town_Council_(Singapore)",
+    "https://en.wikipedia.org/wiki/Singapore_passport",
+    "https://en.wikipedia.org/wiki/Powers_of_the_president_of_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:40:56.612986",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Executive_branch_of_the_government_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singapore_government_policies",
+    "https://en.wikipedia.org/wiki/Category:Public_finance_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Emergency_management_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Judiciary_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Military_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:British_rule_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Legislative_branch_of_the_Government_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Political_office-holders_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Law_of_Singapore"
+  ],
+  "title": "Government of Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Government_of_Singapore"
+}

@@ -1,0 +1,18 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:43:55.320453"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_websites_blocked_in_Singapore"
+  ],
+  "processed_at": "2026-01-12T09:43:55.320026",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Lists_of_mass_media_in_Singapore"
+  ],
+  "title": "Singapore communications-related lists",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Singapore_communications-related_lists"
+}

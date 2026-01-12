@@ -1,0 +1,34 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:40:28.919289"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Ultimate_Magic",
+    "https://en.wikipedia.org/wiki/British_Theatre_Playhouse",
+    "https://en.wikipedia.org/wiki/Singapore_Pro_Wrestling",
+    "https://en.wikipedia.org/wiki/Singapore_Repertory_Theatre"
+  ],
+  "processed_at": "2026-01-12T09:40:28.918850",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Singaporean_comedy",
+    "https://en.wikipedia.org/wiki/Category:Video_gaming_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Professional_wrestling_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Cinema_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Gambling_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Performing_arts_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Entertainment_venues_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_entertainment_websites",
+    "https://en.wikipedia.org/wiki/Category:Clubs_and_societies_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Entertainment_companies_of_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Singaporean_entertainers",
+    "https://en.wikipedia.org/wiki/Category:Entertainment_events_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Television_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Radio_in_Singapore",
+    "https://en.wikipedia.org/wiki/Category:Sport_in_Singapore"
+  ],
+  "title": "Entertainment in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Entertainment_in_Singapore"
+}

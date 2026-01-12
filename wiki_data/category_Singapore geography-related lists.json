@@ -1,0 +1,26 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:43:58.908444"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/Subzones_of_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_parks_in_Singapore",
+    "https://en.wikipedia.org/wiki/Landmark_sites_in_Singapore",
+    "https://en.wikipedia.org/wiki/Tree_conservation_areas_in_Singapore",
+    "https://en.wikipedia.org/wiki/New_towns_of_Singapore",
+    "https://en.wikipedia.org/wiki/List_of_Heritage_Roads_in_Singapore",
+    "https://en.wikipedia.org/wiki/Park_Connector_Network",
+    "https://en.wikipedia.org/wiki/List_of_Kangchu_system_placename_etymologies",
+    "https://en.wikipedia.org/wiki/Administrative_divisions_of_Singapore",
+    "https://en.wikipedia.org/wiki/ISO_3166-2:SG"
+  ],
+  "processed_at": "2026-01-12T09:43:58.907887",
+  "subcategories": [
+    "https://en.wikipedia.org/wiki/Category:Lists_of_landforms_of_Singapore"
+  ],
+  "title": "Singapore geography-related lists",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Singapore_geography-related_lists"
+}

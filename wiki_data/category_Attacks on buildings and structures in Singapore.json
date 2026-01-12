@@ -1,0 +1,26 @@
+{
+  "_metadata": {
+    "crawler_version": "1.0.0",
+    "file_format_version": "1.0",
+    "saved_at": "2026-01-12T09:39:48.547671"
+  },
+  "articles": [
+    "https://en.wikipedia.org/wiki/1989_Yishun_coffeeshop_murder",
+    "https://en.wikipedia.org/wiki/Bombing_of_Singapore_(1944%E2%80%931945)",
+    "https://en.wikipedia.org/wiki/Oriental_Hotel_murder",
+    "https://en.wikipedia.org/wiki/Singapore_embassies_attack_plot",
+    "https://en.wikipedia.org/wiki/Singapore_Polytechnic_stabbing",
+    "https://en.wikipedia.org/wiki/Maghain_Aboth_Synagogue_attack_plot",
+    "https://en.wikipedia.org/wiki/Singapore_mosque_attacks_plot",
+    "https://en.wikipedia.org/wiki/River_Valley_High_School_attack",
+    "https://en.wikipedia.org/wiki/Bras_Basah_coffeeshop_murder",
+    "https://en.wikipedia.org/wiki/MacDonald_House_bombing",
+    "https://en.wikipedia.org/wiki/Alexandra_Hospital_massacre",
+    "https://en.wikipedia.org/wiki/Choa_Chu_Kang_Combined_Temple_murder"
+  ],
+  "processed_at": "2026-01-12T09:39:48.547199",
+  "subcategories": [],
+  "title": "Attacks on buildings and structures in Singapore",
+  "type": "category",
+  "url": "https://en.wikipedia.org/wiki/Category:Attacks_on_buildings_and_structures_in_Singapore"
+}

@@ -100,7 +100,14 @@ class WikipediaCrawler:
         self.url_queue = URLQueueManager(str(queue_state_file))
         self.deduplication = DeduplicationSystem(str(dedup_state_file))
         self.progress_tracker = ProgressTracker(progress_state_file)
-        self.file_storage = FileStorage(str(self.output_dir))
+        
+        # Initialize file storage with folder configuration
+        folder_config = {
+            'organize_by': 'category',
+            'category_folder_name': self._extract_category_name_from_url(self.start_url),
+            'create_subfolders': False
+        }
+        self.file_storage = FileStorage(str(self.output_dir), folder_config)
         
         # Initialize page processor
         self.page_processor = PageProcessor(
@@ -485,6 +492,28 @@ class WikipediaCrawler:
             )
         except Exception:
             return False
+    
+    def _extract_category_name_from_url(self, url: str) -> str:
+        """
+        Extract category name from Wikipedia URL for folder naming.
+        
+        Args:
+            url: Wikipedia URL
+            
+        Returns:
+            Category folder name
+        """
+        try:
+            if 'Category:' in url:
+                # Extract category name from URL
+                category_part = url.split('Category:')[-1]
+                # Clean up the category name for folder use
+                folder_name = f"Category_{category_part.replace('%20', '_').replace(' ', '_')}"
+                return folder_name
+            else:
+                return "General_Crawl"
+        except Exception:
+            return "Category_Unknown"
     
     def _setup_signal_handlers(self) -> None:
         """Setup signal handlers for graceful shutdown."""

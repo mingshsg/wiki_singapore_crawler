@@ -73,6 +73,16 @@ class ArticlePageHandler:
             # Extract main article content
             article_html = self._extract_article_content(soup)
             
+            # Debug logging for article content extraction
+            self.logger.info(f"Extracted article HTML length: {len(article_html) if article_html else 0}")
+            if article_html:
+                # Parse the extracted HTML to check text content
+                article_soup = BeautifulSoup(article_html, 'html.parser')
+                text_content = article_soup.get_text().strip()
+                self.logger.info(f"Extracted article text length: {len(text_content)}")
+                if len(text_content) < 200:
+                    self.logger.info(f"Short extracted text: '{text_content}'")
+            
             if not article_html or not article_html.strip():
                 self.logger.warning(f"No content extracted from article: {url}")
                 return ProcessResult(
@@ -84,6 +94,12 @@ class ArticlePageHandler:
             # Process content to markdown
             try:
                 processed_content = self.content_processor.process_content(article_html)
+                
+                # Debug logging
+                self.logger.info(f"Content processing result for {url}: {len(processed_content)} characters")
+                if len(processed_content) < 100:  # Show content if it's short
+                    self.logger.info(f"Short content preview: '{processed_content}'")
+                    
             except Exception as e:
                 self.logger.error(f"Content processing failed for {url}: {e}")
                 return ProcessResult(
@@ -95,6 +111,7 @@ class ArticlePageHandler:
             # Check if processed content is substantial
             if not processed_content or len(processed_content.strip()) < 20:
                 self.logger.warning(f"Insufficient content after processing: {url}")
+                self.logger.warning(f"Content length: {len(processed_content.strip()) if processed_content else 0}")
                 return ProcessResult(
                     success=False,
                     url=url,

@@ -19,19 +19,30 @@ class FileStorage:
     
     Provides atomic file operations, directory management, and organized storage
     for both category and article data with proper filename sanitization.
+    Supports configurable folder organization by category or other criteria.
     """
     
-    def __init__(self, output_dir: Path):
+    def __init__(self, output_dir: Path, folder_config: Optional[Dict[str, Any]] = None):
         """
         Initialize the file storage system.
         
         Args:
             output_dir: Base directory for storing crawled content
+            folder_config: Configuration for folder organization
+                - organize_by: 'category', 'date', 'type', or 'flat' (default)
+                - category_folder_name: Name for category-based folder (default: extracted from URL)
+                - create_subfolders: Whether to create subfolders for different content types
         """
         self.output_dir = Path(output_dir)
+        self.folder_config = folder_config or {}
         self.logger = get_logger(__name__)
         self._lock = threading.Lock()  # For thread-safe operations
         self._existing_files: Set[str] = set()
+        
+        # Parse folder configuration
+        self.organize_by = self.folder_config.get('organize_by', 'flat')
+        self.category_folder_name = self.folder_config.get('category_folder_name', None)
+        self.create_subfolders = self.folder_config.get('create_subfolders', False)
         
         # Ensure output directory exists
         self.ensure_directory_exists(self.output_dir)
@@ -56,16 +67,19 @@ class FileStorage:
             # Generate filename
             filename = sanitize_wikipedia_title(data.title, page_type='category')
             
+            # Determine target directory
+            target_dir = self._get_target_directory('category', data)
+            
             # Ensure unique filename
             with self._lock:
                 unique_filename = create_unique_filename(filename, self._existing_files)
                 self._existing_files.add(unique_filename)
             
             # Save file atomically
-            file_path = self.output_dir / unique_filename
+            file_path = target_dir / unique_filename
             self._save_json_atomic(file_path, data.to_dict())
             
-            self.logger.info(f"Saved category: {data.title} -> {unique_filename}")
+            self.logger.info(f"Saved category: {data.title} -> {file_path}")
             return str(file_path)
             
         except Exception as e:
@@ -89,29 +103,33 @@ class FileStorage:
             # Generate filename
             filename = sanitize_wikipedia_title(data.title, page_type='article')
             
+            # Determine target directory
+            target_dir = self._get_target_directory('article', data)
+            
             # Ensure unique filename
             with self._lock:
                 unique_filename = create_unique_filename(filename, self._existing_files)
                 self._existing_files.add(unique_filename)
             
             # Save file atomically
-            file_path = self.output_dir / unique_filename
+            file_path = target_dir / unique_filename
             self._save_json_atomic(file_path, data.to_dict())
             
-            self.logger.info(f"Saved article: {data.title} -> {unique_filename}")
+            self.logger.info(f"Saved article: {data.title} -> {file_path}")
             return str(file_path)
             
         except Exception as e:
             self.logger.error(f"Failed to save article {data.title}: {e}")
             raise IOError(f"Cannot save article data: {e}") from e
     
-    def save_json(self, filename: str, data: Dict[str, Any]) -> str:
+    def save_json(self, filename: str, data: Dict[str, Any], content_type: str = 'general') -> str:
         """
         Save arbitrary JSON data to a file.
         
         Args:
             filename: Desired filename (will be sanitized)
             data: Dictionary to save as JSON
+            content_type: Type of content for folder organization
             
         Returns:
             Path to the saved file
@@ -128,16 +146,19 @@ class FileStorage:
             if not safe_filename.endswith('.json'):
                 safe_filename += '.json'
             
+            # Determine target directory
+            target_dir = self._get_target_directory(content_type, None)
+            
             # Ensure unique filename
             with self._lock:
                 unique_filename = create_unique_filename(safe_filename, self._existing_files)
                 self._existing_files.add(unique_filename)
             
             # Save file atomically
-            file_path = self.output_dir / unique_filename
+            file_path = target_dir / unique_filename
             self._save_json_atomic(file_path, data)
             
-            self.logger.debug(f"Saved JSON data -> {unique_filename}")
+            self.logger.debug(f"Saved JSON data -> {file_path}")
             return str(file_path)
             
         except Exception as e:
@@ -298,9 +319,12 @@ class FileStorage:
         """Load existing files from the output directory."""
         try:
             if self.output_dir.exists():
-                for file_path in self.output_dir.iterdir():
-                    if file_path.is_file() and file_path.suffix == '.json':
-                        self._existing_files.add(file_path.name)
+                # Recursively find all JSON files
+                for file_path in self.output_dir.rglob('*.json'):
+                    if file_path.is_file():
+                        # Store relative path from output_dir for uniqueness checking
+                        relative_path = file_path.relative_to(self.output_dir)
+                        self._existing_files.add(str(relative_path))
                 
                 self.logger.debug(f"Loaded {len(self._existing_files)} existing files")
             else:
@@ -309,3 +333,85 @@ class FileStorage:
         except Exception as e:
             self.logger.warning(f"Could not load existing files: {e}")
             # Continue with empty set - not a fatal error
+    
+    def _get_target_directory(self, content_type: str, data: Optional[Any] = None) -> Path:
+        """
+        Determine the target directory for saving files based on configuration.
+        
+        Args:
+            content_type: Type of content ('category', 'article', 'general')
+            data: Optional data object for extracting metadata
+            
+        Returns:
+            Path to target directory
+        """
+        base_dir = self.output_dir
+        
+        if self.organize_by == 'flat':
+            return base_dir
+        
+        elif self.organize_by == 'category':
+            # Use configured category folder name or extract from data
+            if self.category_folder_name:
+                folder_name = self.category_folder_name
+            else:
+                # Try to extract category name from URL or use default
+                folder_name = "Category_Singapore"  # Default fallback
+            
+            target_dir = base_dir / folder_name
+            
+            # Create subfolders by content type if configured
+            if self.create_subfolders:
+                if content_type == 'category':
+                    target_dir = target_dir / 'categories'
+                elif content_type == 'article':
+                    target_dir = target_dir / 'articles'
+                elif content_type == 'general':
+                    target_dir = target_dir / 'general'
+        
+        elif self.organize_by == 'date':
+            # Organize by current date
+            today = datetime.now().strftime('%Y-%m-%d')
+            target_dir = base_dir / today
+            
+            if self.create_subfolders:
+                target_dir = target_dir / content_type
+        
+        elif self.organize_by == 'type':
+            # Organize by content type only
+            if content_type == 'category':
+                target_dir = base_dir / 'categories'
+            elif content_type == 'article':
+                target_dir = base_dir / 'articles'
+            else:
+                target_dir = base_dir / 'general'
+        
+        else:
+            # Default to flat structure
+            target_dir = base_dir
+        
+        # Ensure directory exists
+        self.ensure_directory_exists(target_dir)
+        return target_dir
+    
+    def get_category_folder_name(self, start_url: str) -> str:
+        """
+        Extract category folder name from start URL.
+        
+        Args:
+            start_url: Starting URL for crawling
+            
+        Returns:
+            Folder name based on category
+        """
+        try:
+            if 'Category:' in start_url:
+                # Extract category name from URL
+                category_part = start_url.split('Category:')[-1]
+                # Clean up the category name for folder use
+                folder_name = f"Category_{category_part.replace('%20', '_').replace(' ', '_')}"
+                return folder_name
+            else:
+                return "General_Crawl"
+        except Exception:
+            return "Category_Unknown"

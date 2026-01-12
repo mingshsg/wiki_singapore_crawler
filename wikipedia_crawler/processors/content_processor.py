@@ -23,7 +23,7 @@ class ContentProcessor:
         
         # Elements to remove completely
         self.remove_elements = {
-            'script', 'style', 'noscript', 'meta', 'link', 'head',
+            'script', 'style', 'noscript', 'meta', 'head',
             'nav', 'header', 'footer', 'aside',
             # Wikipedia-specific elements
             'table.infobox', 'div.navbox', 'div.hatnote', 'div.dablink',
@@ -36,6 +36,17 @@ class ContentProcessor:
             'div.thumb', 'div.thumbinner', 'div.thumbcaption',
             'div.gallery', 'div.gallerybox', 'div.gallerytext'
         }
+        
+        # HTML link tags (stylesheets, etc.) - be very specific to avoid removing content
+        self.remove_link_tags = [
+            'link[rel="stylesheet"]',
+            'link[rel="icon"]', 
+            'link[rel="canonical"]',
+            'link[rel="alternate"]',
+            'link[rel="preload"]',
+            'link[rel="dns-prefetch"]',
+            'link[rel="preconnect"]'
+        ]
         
         # Attributes to remove from all elements
         self.remove_attributes = {
@@ -116,6 +127,11 @@ class ContentProcessor:
             for element in soup.select(selector):
                 element.decompose()
         
+        # Remove HTML link tags (stylesheets, etc.) separately to avoid removing content links
+        for selector in self.remove_link_tags:
+            for element in soup.select(selector):
+                element.decompose()
+        
         # Remove specific Wikipedia elements
         self._remove_wikipedia_specific_elements(soup)
     
@@ -181,16 +197,43 @@ class ContentProcessor:
     
     def _extract_main_content(self, soup: BeautifulSoup) -> BeautifulSoup:
         """Extract the main content area from Wikipedia page."""
-        # Try to find the main content div
-        main_content = soup.find('div', {'id': 'mw-content-text'})
-        if not main_content:
-            main_content = soup.find('div', class_='mw-parser-output')
-        if not main_content:
-            main_content = soup.find('div', {'id': 'bodyContent'})
-        if not main_content:
-            # Fallback to the entire body or soup
-            main_content = soup.find('body') or soup
+        # Try to find the main content div - check multiple selectors in order of preference
         
+        # First try the traditional mw-content-text
+        main_content = soup.find('div', {'id': 'mw-content-text'})
+        if main_content:
+            # Look for mw-parser-output within it
+            parser_output = main_content.find('div', class_='mw-parser-output')
+            if parser_output:
+                return parser_output
+            return main_content
+        
+        # Try the newer mw-content-container structure
+        content_container = soup.find('div', class_='mw-content-container')
+        if content_container:
+            # Look for mw-content-text within the container
+            mw_content_text = content_container.find('div', {'id': 'mw-content-text'})
+            if mw_content_text:
+                # Look for mw-parser-output within it
+                parser_output = mw_content_text.find('div', class_='mw-parser-output')
+                if parser_output:
+                    return parser_output
+                return mw_content_text
+            # Fallback to the container itself
+            return content_container
+        
+        # Try direct mw-parser-output
+        main_content = soup.find('div', class_='mw-parser-output')
+        if main_content:
+            return main_content
+        
+        # Try bodyContent as fallback
+        main_content = soup.find('div', {'id': 'bodyContent'})
+        if main_content:
+            return main_content
+        
+        # Final fallback to the entire body or soup
+        main_content = soup.find('body') or soup
         return main_content
     
     def _convert_to_markdown(self, soup: BeautifulSoup) -> str:

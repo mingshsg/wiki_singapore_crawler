@@ -184,6 +184,24 @@ class FileStorage:
     def ensure_directory_exists(self, path: str) -> None
 ```
 
+### 11. Failed URL Retry Manager
+**Responsibility**: Manages retry operations for previously failed URLs
+- Extracts failed URLs from progress state files
+- Reuses existing crawler infrastructure for consistency
+- Provides interactive retry operations with progress reporting
+- Generates comprehensive retry reports
+
+**Interface**:
+```python
+class FailedURLRetryManager:
+    def __init__(self, output_dir: str, delay_between_requests: float, max_retries: int)
+    def load_failed_urls(self) -> List[str]
+    def retry_url(self, url: str) -> Dict[str, Any]
+    def retry_all_failed_urls(self) -> Dict[str, Any]
+    def generate_retry_report(self, results: Dict[str, Any]) -> str
+    def close(self) -> None
+```
+
 ## Data Models
 
 ### URLItem
